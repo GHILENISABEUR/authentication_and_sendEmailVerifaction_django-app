@@ -24,8 +24,7 @@ Ensure you have the following installed on your system:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/GHILENISABEUR/authentication_system_django.git
-   cd authentication_system_django
+   git clone https://github.com/GHILENISABEUR/authentication_and_sendEmailVerifaction_django-app.git
    ```
 
 2. Create and activate a virtual environment:
@@ -44,13 +43,13 @@ Ensure you have the following installed on your system:
 4. Apply migrations:
 
    ```bash
-   python manage.py migrate
+   python3 manage.py migrate
    ```
 
 5. Run the development server:
 
    ```bash
-   python manage.py runserver
+   python3 manage.py runserver
    ```
 
 6. Open your browser and navigate to:
@@ -71,7 +70,6 @@ Ensure you have the following installed on your system:
 ├── users/
 │   ├── templates/        # HTML templates
 │   ├── views.py          # View functions
-│   ├── forms.py          # Django forms for user registration
 │   └── models.py         # User models
 ├── static/               # Static files
 ├── templates/            # Project-wide templates
